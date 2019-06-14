@@ -1,4 +1,5 @@
 import React from 'react'
+//import CreateAccount from 'createAccount'
 
 const Main = () => (
   <div id="container">
@@ -9,15 +10,10 @@ const Main = () => (
     </div>
     <div class="side">left</div>
     <div id="main">main
-      <form id="myAccountForm" action="get">
-        <input type="text" name="userName" />
-        <input type="password" name="password" />
-        <input id='sub' type="submit" />
-      </form>
+      <button>click me</button>
     </div>
     <div class="side">right</div>
     <div id='footer'>footer</div>
   </div>
 );
-
 export default Main;

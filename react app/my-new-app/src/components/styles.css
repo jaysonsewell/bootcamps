@@ -1,4 +1,4 @@
-html{
+/* html{
   background-color: skyblue;
 }
 #container{
@@ -14,9 +14,9 @@ html{
   background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
-}
+} */
 /* The navbar container */
-#topnav {
+/* #topnav {
   width: 100%;
   float: right;
   overflow: hidden;
@@ -30,9 +30,9 @@ html{
   width: 70%;
   height: 500px;
   background-color: skyblue;
-}
+} */
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
@@ -43,4 +43,4 @@ html{
   background-color: coral;
   text-align: center;
   padding: 10px;
-}
+} */

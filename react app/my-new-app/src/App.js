@@ -1,14 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import drawing from './drawing.svg';
 import './App.css';
 import HelloWorld from './components/first.js';
 import Main from './components/main.js';
+import CreateAccount from './components/createAccount.js';
+
+console.log('works');
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={drawing} className="App-logo" alt="logo" />
         <p>
           <Main />
           <HelloWorld />
