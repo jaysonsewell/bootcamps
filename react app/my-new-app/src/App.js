@@ -14,10 +14,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={drawing} className="App-logo" alt="logo" />
-        <p>
-          <Main />
-          <HelloWorld />
-        </p>
+        <Main />
+        <HelloWorld />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
