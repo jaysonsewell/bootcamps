@@ -22,19 +22,21 @@
 .App-link {
   color: #61dafb;
 }
-#first{
-  background-color:red;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 html{
   background-color: skyblue;
+}
+#sail{
+  height: 100px;
+  width: 100;
+  border-radius: 50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 500px;
+  width: 100%;
 }
 #container{
   display: flex;
@@ -46,9 +48,10 @@ html{
 }
 #header {
   width: 100%;
-  background-color: #F1F1F1;
+  background-color: skyblue;
   text-align: center;
   padding: 20px;
+  font-family: Helvetica;
 }
 /* The navbar container */
 #topnav {
@@ -61,15 +64,34 @@ html{
   width: 15%;
   background-color: aqua;
 }
+.infoWindow {
+  width:400px;
+  background-color:coral;
+}
+.infoWindow > img {
+  size: 100px;
+}
 #main{
   width: 70%;
   height: 500px;
   background-color: skyblue;
 }
+.treeType{
+  border-color: black;
+  border-width: 2px;
+}
+.selected{
+  background-color: tomato;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 @media screen and (max-width: 600px) {
-  .column {
+  .side, .head, #main{
     width: 100%;
+    /* height: 110px; */
+  }
+  * {
+    margin: auto;
+    text-align: center;
   }
 }
 

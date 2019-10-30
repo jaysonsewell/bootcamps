@@ -2,9 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import drawing from './drawing.svg';
 import './App.css';
-import HelloWorld from './components/first.js';
 import Main from './components/main.js';
-import CreateAccount from './components/createAccount.js';
 
 console.log('works');
 
@@ -15,7 +13,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img src={drawing} className="App-logo" alt="logo" />
         <Main />
-        <HelloWorld />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
